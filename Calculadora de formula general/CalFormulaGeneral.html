@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var num1 = parseInt(prompt("Ingrese el primer numero"));
+var num2 = parseInt(prompt("Ingrese el segundo numero"));
+var num3 = parseInt(prompt("Ingrese el tercer numero"));
+
+function formGeneral(num1, num2, num3){
+    let paso1 = -num2;
+    let paso2 = Math.pow(2,num2);
+    let paso3 = -4 * num1 * num3;
+    let paso4 = paso2 + paso3;
+    let paso5 = Math.sqrt(paso4);
+
+    let  result = paso1 + paso5 / (num1 * 2);
+    let  result2 = paso1 - paso5 / (num1 * 2);
+
+    console.log(result);
+    console.log(result2);
+
+}
+
+formGeneral(num1,num2,num3);
+
+    </script>
+</body>
+</html>

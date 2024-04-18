@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        
+        function factoriral(factor){
+      total = 1;
+      
+      for(i=1 ; i <= factor; i++){
+        total = total * i;
+      }
+      console.log(total);
+    }
+
+    factoriral(4);
+    
+    function calcularEdad(edad){
+        meses = 12;
+
+        console.log("El total de su edad en meses es: " + total)
+        calEdad = prompt("Elija una opcion \n" + " Hora\n" + "Meses\n" + "Minutos");
+
+        switch(calEdad){
+            case 'hora':
+                total = edad * 8760;
+                console.log("El total de su edad en horas es: " + total);
+                break;
+            case 'meses': 
+                total = edad * meses;
+                console.log("El total de su edad en meses es: " + total);
+                break;
+            case 'minutos':
+                total = edad * 525600;
+                console.log("El total de su edad en minutos es: " + total)
+                break;
+        }
+
+    }
+    calcularEdad(23);
+
+    
+
+    </script>
+</body>
+
+</html>

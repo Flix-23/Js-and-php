@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e9f2f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40; 
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f1f1f1; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions a {
+    padding: 6px 12px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.actions a.edit {
+    background-color: #504237; 
+}
+
+.actions a.complete {
+    background-color: #5c6e60;
+}
+
+.actions a.delete {
+    background-color: #dc3545; 
+}
+
+.completed span {
+    text-decoration: line-through;
+}
+
+form .cancel {
+    background-color: #6c757d; 
+}
