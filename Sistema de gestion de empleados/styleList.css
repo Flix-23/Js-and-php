@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff; 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #271e4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #060416;
+}
+
+.employees-list {
+    margin-top: 20px;
+    text-align: center;
+}
